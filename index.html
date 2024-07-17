@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Juego de Combate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Mini Juego de Combate</h1>
+        <div id="player1" class="character">
+            <h2>Jugador 1</h2>
+            <p>Vida: <span id="hp1">100</span></p>
+            <button onclick="attack('player1')">Atacar</button>
+        </div>
+        <div id="player2" class="character">
+            <h2>Jugador 2</h2>
+            <p>Vida: <span id="hp2">100</span></p>
+            <button onclick="attack('player2')">Atacar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
